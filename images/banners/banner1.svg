@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" fill="#0067A5"/>
+  <text x="600" y="140" font-family="Arial" font-size="60" font-weight="bold" fill="#fff" text-anchor="middle">عروض ينبوع</text>
+  <text x="600" y="200" font-family="Arial" font-size="28" fill="#B3E5FC" text-anchor="middle">توصيل مجاني لأول طلب</text>
+  <text x="600" y="250" font-family="Arial" font-size="18" fill="#48A9C5" text-anchor="middle">اطلب الآن</text>
+</svg>
