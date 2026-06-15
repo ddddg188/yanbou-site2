@@ -1,0 +1,131 @@
+/* ============================================
+   YANBOU | ينبوع — Custom CSS for Salla
+   #003B5C | #0067A5 | #48A9C5 | #B3E5FC
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+
+:root {
+  --main: #0067A5;
+  --second: #48A9C5;
+  --third: #003B5C;
+  --light: #B3E5FC;
+  --bg: #f0f7fc;
+}
+
+*, body {
+  font-family: 'Tajawal', sans-serif !important;
+}
+
+body {
+  background-color: var(--bg) !important;
+}
+
+#mainnav,
+.s-block--categories .swiper-wrapper a {
+  background: linear-gradient(135deg, #003B5C, #0067A5, #48A9C5) !important;
+}
+
+.main-menu li a,
+.header-btn__icon,
+.s-cart-summary-total {
+  color: #fff !important;
+}
+
+.main-menu li a:hover {
+  color: var(--light) !important;
+}
+
+.s-block__title,
+.s-products-slider-slider .s-slider-block__title {
+  color: var(--third) !important;
+  font-weight: 800 !important;
+  border-right: 6px solid var(--main) !important;
+  border-radius: 6px !important;
+  padding-right: 14px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  margin-right: 10px !important;
+}
+
+.s-product-card-entry {
+  border: 1.5px solid var(--light) !important;
+  border-radius: 18px !important;
+  padding: 8px !important;
+  background: #fff !important;
+  box-shadow: 0 4px 18px rgba(0,59,92,.08) !important;
+  transition: transform .3s, box-shadow .3s !important;
+}
+
+.s-product-card-entry:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 12px 36px rgba(0,59,92,.16) !important;
+  border-color: var(--main) !important;
+}
+
+.s-product-card-entry .s-product-card-image {
+  background: linear-gradient(180deg, #f4faff, #e8f4fb) !important;
+  border-radius: 14px !important;
+}
+
+.s-product-card-name {
+  color: var(--third) !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+}
+
+.s-product-card-price {
+  color: var(--main) !important;
+  font-weight: 800 !important;
+  font-size: 16px !important;
+}
+
+.s-button-btn {
+  background: linear-gradient(135deg, #003B5C, #0067A5) !important;
+  color: #fff !important;
+  border-radius: 12px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  border: none !important;
+  box-shadow: 0 4px 14px rgba(0,59,92,.25) !important;
+  transition: all .2s !important;
+}
+
+.s-button-btn:hover {
+  background: linear-gradient(135deg, #0067A5, #48A9C5) !important;
+  transform: scale(1.03) !important;
+}
+
+.store-footer {
+  background: var(--third) !important;
+  padding: 30px !important;
+  border-top-left-radius: 40px !important;
+  border-top-right-radius: 40px !important;
+  box-shadow: 0 -4px 24px rgba(0,59,92,.2) !important;
+}
+
+.store-footer h3 {
+  color: var(--light) !important;
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+}
+
+.store-footer a {
+  color: rgba(255,255,255,.7) !important;
+}
+
+.store-footer a:hover {
+  color: var(--light) !important;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--main), var(--second));
+  border-radius: 3px;
+}
+
+::selection {
+  background: var(--light);
+  color: var(--third);
+}
