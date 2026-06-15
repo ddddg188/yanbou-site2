@@ -1,7 +1,5 @@
-/* ============================================
-   YANBOU | ينبوع — Custom CSS for Salla
-   #003B5C | #0067A5 | #48A9C5 | #B3E5FC
-   ============================================ */
+/* YANBOU | ينبوع — Custom CSS for Salla (Raed Theme) */
+/* #003B5C | #0067A5 | #48A9C5 | #B3E5FC */
 
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
 
@@ -21,31 +19,18 @@ body {
   background-color: var(--bg) !important;
 }
 
-#mainnav,
-.s-block--categories .swiper-wrapper a {
+#mainnav {
   background: linear-gradient(135deg, #003B5C, #0067A5, #48A9C5) !important;
 }
 
-.main-menu li a,
-.header-btn__icon,
-.s-cart-summary-total {
-  color: #fff !important;
+#mainnav .navbar-brand img {
+  filter: brightness(0) invert(1);
 }
 
-.main-menu li a:hover {
-  color: var(--light) !important;
-}
-
-.s-block__title,
-.s-products-slider-slider .s-slider-block__title {
-  color: var(--third) !important;
-  font-weight: 800 !important;
-  border-right: 6px solid var(--main) !important;
-  border-radius: 6px !important;
-  padding-right: 14px !important;
-  padding-top: 6px !important;
-  padding-bottom: 6px !important;
-  margin-right: 10px !important;
+#mainnav .sicon-menu,
+#mainnav salla-user-menu,
+#mainnav salla-cart-summary {
+  --color-primary: #ffffff !important;
 }
 
 .s-product-card-entry {
@@ -58,9 +43,9 @@ body {
 }
 
 .s-product-card-entry:hover {
+  border-color: var(--main) !important;
   transform: translateY(-5px) !important;
   box-shadow: 0 12px 36px rgba(0,59,92,.16) !important;
-  border-color: var(--main) !important;
 }
 
 .s-product-card-entry .s-product-card-image {
@@ -71,34 +56,39 @@ body {
 .s-product-card-name {
   color: var(--third) !important;
   font-weight: 700 !important;
-  font-size: 15px !important;
 }
 
 .s-product-card-price {
   color: var(--main) !important;
   font-weight: 800 !important;
-  font-size: 16px !important;
 }
 
 .s-button-btn {
   background: linear-gradient(135deg, #003B5C, #0067A5) !important;
   color: #fff !important;
   border-radius: 12px !important;
-  font-size: 13px !important;
   font-weight: 700 !important;
   border: none !important;
   box-shadow: 0 4px 14px rgba(0,59,92,.25) !important;
-  transition: all .2s !important;
 }
 
 .s-button-btn:hover {
   background: linear-gradient(135deg, #0067A5, #48A9C5) !important;
-  transform: scale(1.03) !important;
+}
+
+.s-block__title {
+  color: var(--third) !important;
+  font-weight: 800 !important;
+  border-right: 6px solid var(--main) !important;
+  border-radius: 6px !important;
+  padding-right: 14px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  margin-right: 10px !important;
 }
 
 .store-footer {
   background: var(--third) !important;
-  padding: 30px !important;
   border-top-left-radius: 40px !important;
   border-top-right-radius: 40px !important;
   box-shadow: 0 -4px 24px rgba(0,59,92,.2) !important;
@@ -106,7 +96,6 @@ body {
 
 .store-footer h3 {
   color: var(--light) !important;
-  font-size: 1.2rem !important;
   font-weight: 800 !important;
 }
 
